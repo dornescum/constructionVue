@@ -1,0 +1,49 @@
+[
+  {
+    "judet": "Alba",
+    "adresa": "Str. Septimius Severus nr. 59, Alba Iulia, jud. Alba, Cod postal 510129dsad ad sad asd asasd as",
+    "coordonate": "43354453.432432432",
+    "telefon": "02465431",
+    "email": "test@test.com",
+    "fax": "fax@fax.com",
+    "website": "pornhub.com",
+    "program": {
+      "public": [
+        {
+          "luni": "9-12"
+        },
+        {
+          "marti": "9-12"
+        },
+        {
+          "miercuri": "9-12"
+        },
+        {
+          "joi": "9-12"
+        },
+        {
+          "vineri": "9-12"
+        }
+      ],
+      "autorizati": [
+        {
+          "luni": "9-12"
+        },
+        {
+          "marti": "9-12"
+        },
+        {
+          "miercuri": "9-12"
+        },
+        {
+          "joi": "9-12"
+        },
+        {
+          "vineri": "9-12"
+        }
+      ]
+    }
+  }
+
+
+]
