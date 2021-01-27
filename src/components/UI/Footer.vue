@@ -4,31 +4,22 @@
 
       <b-container class="bv-example-row">
         <b-row>
-          <b-col lg="4" sm="12" align="start">
+          <b-col lg="6" sm="12" align="start">
             <ul class="p-2">
               <li><router-link to="/"><i class="fa fa-book link-green-color"></i> Harta Judate</router-link></li>
-              <li><router-link to="/Localizare"><i class="fa fa-book link-green-color"></i> Ce este cadastrul</router-link></li>
-              <li><router-link to="/OficiuBirouriCadastru"><i class="fa fa-book link-green-color"></i> Oficiou birouri cadastru</router-link></li>
-              <li><router-link to="/Localizare"><i class="fa fa-book link-green-color"></i> Localizare</router-link></li>
+              <li><router-link to="/Location"><i class="fa fa-book link-green-color"></i> Location</router-link></li>
+              <li><router-link to="/OficiuB"><i class="fa fa-book link-green-color"></i> OficiuB</router-link></li>
+              <li><router-link to="/Location"><i class="fa fa-book link-green-color"></i> Location</router-link></li>
               <li><router-link to="/ParerileClientilor"><i class="fa fa-book link-green-color"></i> Parerile Clientilor</router-link></li>
             </ul>
           </b-col>
-          <b-col lg="4" sm="12" align="start">
+          <b-col lg="6" sm="12" align="start">
             <ul class="p-2">
-              <li><router-link to="/InscriereFirme"><i class="fa fa-book link-green-color"></i> Inscriere Firma</router-link></li>
-              <li><router-link to="/CautaFirma"><i class="fa fa-book link-green-color"></i> Cauta firma</router-link></li>
-              <li><router-link to="/ParerileClientilor"><i class="fa fa-book link-green-color"></i> Termeni si conditii </router-link></li>
-              <li><router-link to="/ParerileClientilor"><i class="fa fa-book link-green-color"></i> Politica de confidentialitate</router-link></li>
-              <li><router-link to="/ParerileClientilor"><i class="fa fa-book link-green-color"></i> Politica de cookies</router-link></li>
-            </ul>
-          </b-col>
-          <b-col lg="4" sm="12" align="start">
-            <ul class="p-2">
-              <li><router-link to="/Localizare"><i class="fa fa-book link-green-color"></i> ANCPI</router-link></li>
-              <li><router-link to="/Localizare"><i class="fa fa-book link-green-color"></i> Geoportal ANCPI (Harta)</router-link></li>
-              <li><router-link to="/Localizare"><i class="fa fa-book link-green-color"></i> Extras carte funciara online</router-link></li>
-              <li><router-link to="/Localizare"><i class="fa fa-book link-green-color"></i> Topo-Online</router-link></li>
-              <li><router-link to="/Localizare"><i class="fa fa-book link-green-color"></i>  Statii Permanente GPS</router-link></li>
+              <li><router-link to="/SomeForm"><i class="fa fa-book link-green-color"></i> Some Form</router-link></li>
+              <li><router-link to="/SearchFor"><i class="fa fa-book link-green-color"></i> Dearch For</router-link></li>
+              <li><router-link to="/DespreNoi"><i class="fa fa-book link-green-color"></i> Termeni si conditii </router-link></li>
+              <li><router-link to="/CumFunctioneaza"><i class="fa fa-book link-green-color"></i> Politica de confidentialitate</router-link></li>
+              <li><router-link to="/"><i class="fa fa-book link-green-color"></i> Politica de cookies</router-link></li>
             </ul>
           </b-col>
         </b-row>

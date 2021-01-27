@@ -16,7 +16,8 @@
 
             <div class="d-flex justify-content-between align-items-center">
               <h5 class="card-title no-margin-bottom font-size18">
-                <a href="firma-standard.html" class="text-extra-medium-gray">Pindic Paula PFA
+                <a href="firma-standard.html" class="text-extra-medium-gray">GHghghg
+                  GFH PFA
                 </a>
               </h5>
               <ul class="no-margin-bottom">

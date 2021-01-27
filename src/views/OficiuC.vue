@@ -1,25 +1,21 @@
 <template>
   <section>
-<!--    <imagine-top></imagine-top>-->
+
 <image-slot>
-  <img src="../assets/img/harta.jpg" alt="" class="imgBackground">
-  <div class="centered">
-    <h1 class="titlu font-weight-bold">{{ title }}</h1>
-  </div>
 </image-slot>
     <div class="container pt-2">
       <div class="listing-detail margin-50px-bottom sm-margin-35px-bottom">
-        <h3 class="font-weight-900 border-bottom text-center">Oficii si birouri de cadastru din judetul
+        <h3 class="font-weight-900 border-bottom text-center">Lorem ipsum dolor sit amet.
           <code>Alba</code></h3>
       </div>
       <!--link-->
       <div class="margin-10px-bottom">
         <a href="#" class="font-weight-bold margin-10px-right text-theme-color">
           <i class="fas fa-arrow-alt-circle-right"></i>
-          Lista firmelor de cadastru din judetul Alba</a>
+          Lorem ipsum dolor sit amet. Alba</a>
       </div>
       <div>
-        <h6>Oficiul de cadastru si publicitate imobiliara ALBA</h6>
+        <h6> Lorem ipsum dolor sit amet, consectetur adipisicing.</h6>
       </div>
       <div class="row">
 
@@ -39,8 +35,8 @@
             <tbody>
             <tr>
               <td class="pl-3">Adresa</td>
-              <td class="pl-3">Str. Septimius Severus nr. 59, Alba Iulia, jud. Alba, Cod postal 510129
-                <a href="#" data-tool-tip="46.077701,23.566273">
+              <td class="pl-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                <a href="#" data-tool-tip="36.077701,23.566273">
                   <i class="fa fa-map-marked-alt text-theme-color"></i>
                 </a>
               </td>
@@ -48,19 +44,19 @@
 
             <tr>
               <td class="pl-3">Telefon</td>
-              <td class="pl-3"> +40 258 813 170</td>
+              <td class="pl-3"> +40 258 545454</td>
             </tr>
             <tr>
               <td class="pl-3">Email</td>
-              <td class="pl-3"><a href="" class="text-theme-color"> ab@ancpi.ro</a></td>
+              <td class="pl-3"><a href="" class="text-theme-color"> fdfds@dsdas</a></td>
             </tr>
             <tr>
               <td class="pl-3">Fax</td>
-              <td class="pl-3">+40 258 813 170</td>
+              <td class="pl-3">+40 255545454</td>
             </tr>
             <tr>
               <td class="pl-3">Website</td>
-              <td class="pl-3"><a href="#" class="text-theme-color">http://www.ocpialba.ro</a></td>
+              <td class="pl-3"><a href="#" class="text-theme-color">Lorem ipsum dolor.</a></td>
             </tr>
             </tbody>
           </table>
@@ -111,11 +107,7 @@
 
 
       </div>
-      <oficiu-cadastru-component
-          v-for="inf in information" :key="inf.id"
-          :adresa="inf.adresa"
 
-      ></oficiu-cadastru-component>
     </div>
 
     <slide-top></slide-top>
@@ -125,22 +117,22 @@
 
 <script>
 // import ImagineTop from "@/components/UI/ImagineTop";
-import oficiuCadastruComponent from "@/components/oficiuCadastruComponent";
+
 import ImageSlot from "@/components/UI/ImageSlot";
 
 
 export default {
-  name: "OficiuCadastru",
+  name: "OficiuC",
   components: {
     // ImagineTop,
-    oficiuCadastruComponent,
+
     ImageSlot
   },
   data() {
     return {
       info: [],
       information: '',
-      title: 'Oficii cadastru'
+      title: 'lore dfsaa dsadas'
     }
   },
   mounted() {

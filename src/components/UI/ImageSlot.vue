@@ -3,9 +3,9 @@
 <!--    <img src="#" alt="#" class="imgBackground">-->
     <slot>
 
-      <img src="../../assets/img/harta.jpg" alt="" class="imgBackground">
+      <img src="../../assets/img/hands.jpeg" alt="" class="imgBackground">
       <div class="centered">
-        <h1 class="titlu font-weight-bold">ceva</h1>
+        <h1 class="titlu font-weight">ceva trimis dintr-un slot</h1>
       </div>
     </slot>
   </div>

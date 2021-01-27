@@ -13,13 +13,13 @@
           <b-nav-item to="/SomeForm">Some Form</b-nav-item>
           <b-nav-item to="/Location">Location</b-nav-item>
           <b-nav-item-dropdown :text="dropDown" right :style="styleObject">
-            <b-dropdown-item to="/OficiuBirouriCadastru" :style="linkColor">Oficiu birouri cadastru</b-dropdown-item>
-            <b-dropdown-item to="/OficiuCadastru" :style="linkColor">Oficiu cadastru</b-dropdown-item>
+            <b-dropdown-item to="/OficiuB" :style="linkColor">Oficiu ceva</b-dropdown-item>
+            <b-dropdown-item to="/OficiuC" :style="linkColor">Oficiu altvceva</b-dropdown-item>
             <b-dropdown-item to="/CumFunctioneaza" :style="linkColor">Cum Functioneaza</b-dropdown-item>
             <b-dropdown-item to="/DespreNoi" :style="linkColor">Despre Noi</b-dropdown-item>
             <b-dropdown-item to="/ParerileClientilor" :style="linkColor">Parerile Clientilor</b-dropdown-item>
           </b-nav-item-dropdown>
-          <b-nav-item to="/CautaFirma">Cauta Firma</b-nav-item>
+          <b-nav-item to="/SearchFor">Search For</b-nav-item>
           <b-nav-item to="/Contact"> Contact</b-nav-item>
 
         </b-navbar-nav>

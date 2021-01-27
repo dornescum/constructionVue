@@ -24,7 +24,7 @@
                 <div class="d-flex justify-content-between align-items-center">
                   <h5 class="card-title no-margin-bottom font-size22">
                     <a href="firma-pro.html" class="text-extra-dark-gray">
-                      <strong>TOPODELTAPAD SRL</strong>
+                      <strong>NIidwdw GGG SRL</strong>
                     </a>
                   </h5>
                   <ul class="no-margin-bottom">
@@ -36,12 +36,7 @@
                   </ul>
                 </div>
                 <p class="margin-20px-tb sm-margin-10px-top gri-font font-size16">
-                  SC TOPODELTAPAD SRL, înființată în anul 2005, este o firmă autorizată de
-                  către ANCPI să execute lucrări de specialitate în domeniul cadastrului,
-                  topografiei și geodeziei.
-                  Din 2012 executam si evaluari, fiind autorizati ANEVAR, iar prin
-                  partenerii nostri DEFIGO, realizam Certificate de Performanta Energetica
-                  (Certificat Energetic)
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur cumque debitis distinctio est illum in iure maiores minima mollitia, quaerat rem repellat. Ab commodi culpa deserunt distinctio dolore doloremque dolorum earum expedita fuga incidunt laboriosam libero magnam minima minus obcaecati odit pariatur perspiciatis placeat quo, repellat sapiente tempora temporibus totam ullam voluptas? Alias commodi consequatur facilis in ipsam minima nesciunt nobis quidem vero voluptates? Amet doloribus ducimus, eligendi enim maxime nemo odio provident quam, saepe tempora ullam ut veniam!
                 </p>
 
                 <div class="row justify-content-between">

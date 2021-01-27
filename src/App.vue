@@ -285,6 +285,7 @@ a:hover, a:active {
   -webkit-transition: all linear 300ms;
   transition: all linear 300ms;
   border: none;
+  outline: none;
 }
 
 .butn:hover, .butn:active {
@@ -2544,5 +2545,14 @@ html {
 .link-green-color{
   color: var(--green-1);
 }
+.font-weight-bold{
+  font-weight: bold;
+  color: var(--clr-grey-4);
+}
+.font-weight{
+  font-weight: bold;
+  color: var(--clr-white);
+}
+
 
 </style>

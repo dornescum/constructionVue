@@ -1,11 +1,6 @@
 <template>
   <div>
-<!--    <imagine-top></imagine-top>-->
     <image-slot>
-      <img src="../assets/img/harta.jpg" alt="" class="imgBackground">
-      <div class="centered">
-        <h1 class="titlu font-weight-bold">{{title}}</h1>
-      </div>
     </image-slot>
     <idContact></idContact>
     <FormContact/>

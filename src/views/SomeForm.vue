@@ -1,11 +1,7 @@
 <template>
   <section>
     <image-slot>
-<!--      <h1>{{ title}}</h1>-->
-      <img src="../assets/img/hands.jpeg" alt="" class="imgBackground">
-      <div class="centered">
-        <h1 class="titlu font-weight-bold">{{ title }}</h1>
-      </div>
+
     </image-slot>
     <b-row>
 <!--         imagine temporara!!!-->

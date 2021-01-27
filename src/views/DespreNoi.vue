@@ -3,10 +3,6 @@
   <section>
 <!--    <ImagineTop></ImagineTop>-->
     <image-slot>
-      <img src="../assets/img/harta.jpg" alt="" class="imgBackground">
-      <div class="centered">
-        <h1 class="titlu font-weight-bold">{{ title }}</h1>
-      </div>
     </image-slot>
     <div class="container pt-3">
 
@@ -14,16 +10,10 @@
         <div class="col-md-6 center-col">
 
           <p>
-            Suntem o echipa tanara, plina de idei inovatoare si utile,
-            care a activat de-a lungul timpului in domenii precum geodezia,
-            topografia, cadastru si nu in ultimul rand IT.
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorem sit voluptatem! Commodi doloremque eveniet harum laboriosam officiis sapiente soluta!
           </p>
           <p>
-            Acest proiect a luat nastere din dorinta de a pune in legatura clientul,
-            care are nevoie de servicii in domeniile prezentate mai sus, cu firma/PFA care
-            activeaza in aceste domenii. Practic asiguram o legatura care il ajuta pe client
-            sa obtina cea mai buna oferta intr-un interval scurt de timp, pe de-o parte si pe de alta parte,
-            ofera un numar mai mare de potentiali clienti firmelor/PFA.
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet corporis delectus dolorem, dolorum fugit ipsa itaque laudantium modi placeat provident quam rem repellendus sed vero voluptate? Ab aspernatur exercitationem itaque.
           </p>
 
 
@@ -34,7 +24,7 @@
         <div class="col-md-6 xs-margin-20px-bottom">
           <div class="card-list-img">
             <a href="index.html">
-              <img class="border-radius-5 img-fluid pt-2" src="../assets/img/salaci.jpeg" alt="Big Logo" />
+              <img class="border-radius-5 img-fluid pt-2" src="../assets/img/logo.png" alt="Big Logo" />
             </a>
           </div>
         </div>
@@ -47,23 +37,17 @@
         <div class="col-md-6 xs-margin-10px-bottom">
           <div class="card-list-img">
             <a href="index.html">
-              <img class="border-radius-5 card-img pt-2 mb-1" src="../assets/img/Dan.jpg" alt="Big Logo" />
+              <img class="border-radius-5 img-fluid pt-2 mb-1" src="../assets/img/logo.png" alt="Big Logo" />
             </a>
           </div>
         </div>
         <div class="col-md-6">
 
           <p>
-            Unul din avantajele care trebuie prezentate este faptul ca
-            <a href="/" target="_blank" class="text-theme-color">firmecadastru.ro</a> este absolut <b
-              class="text-black">gratuit</b> pentru potentialul client.
-            Tot ce trebuie sa faca este sa aleaga firma cu care vrea sa colaboreze si treaba poate sa
-            inceapa.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dicta distinctio id ipsa natus nesciunt quibusdam recusandae sunt tempora tenetur.
           </p>
           <p class="font-size16 font-italic">
-            Ne place sa credem ca <a href="/" target="_blank" class="text-theme-color">firmecadastru.ro</a>
-            este locul unde
-            cererea si oferta se intalnesc si speram ca va veti convinge de acest lucru.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet beatae consequatur cumque distinctio doloremque doloribus dolorum fugit harum ipsa laboriosam magni maxime nemo, provident, quam ratione tempora velit! Id.
           </p>
 
         </div>

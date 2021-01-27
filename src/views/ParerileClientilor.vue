@@ -1,11 +1,7 @@
 <template>
   <div>
-<!--    <imagine-top></imagine-top>-->
+
     <image-slot>
-      <img src="../assets/img/harta.jpg" alt="" class="imgBackground">
-      <div class="centered">
-        <h1 class="titlu font-weight-bold">{{ title }}</h1>
-      </div>
     </image-slot>
     <!-- start listing list section -->
     <section>
@@ -13,15 +9,11 @@
         <div class="row margin-50px-bottom">
           <div class="col-12">
             <h4 class="mt-3">Parerile clientilor</h4>
-            <p>Acesti clienti au ales serviciile FirmeCadastru.ro si au fost foarte multumiti. Este
-              suficient sa
-              accesati judetul aferent imobilului dvs, apoi alegeti din lista de autorizati cadastru
-              firma/PFA
-              cu care doriti sa colaborati.
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias autem, cum dolorum ducimus ea earum eligendi excepturi exercitationem harum id illo incidunt laboriosam magnam magni minus necessitatibus odit quae, quasi recusandae repudiandae sapiente sed sint veniam, veritatis voluptatibus voluptatum?
             </p>
             <p class="font-italic">
-              Nota: O parte dintre parerile clientilor de mai jos fac referire la un modul de solicitare
-              oferta, care momentan este dezactivat.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur corporis et officiis reiciendis tempore! Explicabo laudantium, neque. Nam, odit, reiciendis.
             </p>
             <div class="border-bottom mb-3"></div>
 
@@ -29,16 +21,7 @@
             <div class="container m-1">
               <div class="row">
 
-                <!--a 2 a varianta de card-->
 
-<!--                <testimonials-clienti-->
-<!--                    v-for="review in reviews" :key="review.id"-->
-<!--                    :name="review.name"-->
-<!--                    :data="review.data"-->
-<!--                    :text="review.text"-->
-<!--                >-->
-
-<!--                </testimonials-clienti>-->
 
                 <testimonials-clasic class="mb-2"
                     v-for="review in reviews" :key="review.id"
@@ -66,10 +49,10 @@
 </template>
 
 <script>
-// import testimonialsClienti from "@/components/testimonialsClienti";
+
 import TestimonialsClasic from "@/components/TestimonialsClasic";
 import ImageSlot from "@/components/UI/ImageSlot";
-// import ImagineTop from "@/components/UI/ImagineTop";
+
 export default {
   name: "ParerileClientilor",
   components: {

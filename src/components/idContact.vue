@@ -13,27 +13,27 @@
               <table class="table table-borderless table-hover">
                 <tr>
                   <td class="display-start"><b>Denumire</b></td>
-                  <td> GEOCAD IT SOLUTIONS SRL</td>
+                  <td> GRT YUYU IUY SRL</td>
                 </tr>
                 <tr>
                   <td class="display-start"><b>CUI</b></td>
-                  <td> 39843328</td>
+                  <td> 39dsadas28</td>
                 </tr>
                 <tr>
-                  <td class="display-start"><b>Nr. reg. com.</b></td>
-                  <td> J23/4300/2018</td>
+                  <td class="display-start"><b>Nr. reg.</b></td>
+                  <td> J23dsada8</td>
                 </tr>
                 <tr>
                   <td class="display-start"><b>Email</b></td>
-                  <td> contact [@] firmecadastru.ro</td>
+                  <td> fdsfdsf@FSFFS.cvom</td>
                 </tr>
                 <tr>
                   <td class="display-start"><b>Telefon</b></td>
-                  <td> +40 734 760 808</td>
+                  <td> +40 6565 566b</td>
                 </tr>
                 <tr>
                   <td class="display-start"><b>Sediu social</b></td>
-                  <td> jud. Ilfov, 1 Decembrie, str. 15 nr. 15</td>
+                  <td> Lorem ipsum dolor sit amet.</td>
                 </tr>
               </table>
             </div>
@@ -49,23 +49,23 @@
                             <table class="table table-borderless table-hover ">
                               <tr>
                                 <td class="display-start"><b>Banca</b></td>
-                                <td> ING Bank</td>
+                                <td> My bank</td>
                               </tr>
                               <tr>
                                 <td class="display-start"><b>IBAN</b></td>
-                                <td> RO29 INGB 0000 9999 0827 0027</td>
+                                <td> 4343 434 3 34 34 3434</td>
                               </tr>
                               <tr>
                                 <td class="display-start"><b>Moneda</b></td>
-                                <td> RON</td>
+                                <td> dsad</td>
                               </tr>
                               <tr>
                                 <td class="display-start"><b>SWIFT</b></td>
-                                <td> INGBROBU</td>
+                                <td> JHJKL</td>
                               </tr>
                               <tr>
-                                <td class="display-start"><b>BIC</b></td>
-                                <td> INGB</td>
+                                <td class="display-start"><b>GFF</b></td>
+                                <td> KKHJ</td>
                               </tr>
 
                             </table>

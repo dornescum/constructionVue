@@ -1,22 +1,19 @@
 <template>
 <section>
-<!--  <imagine-top></imagine-top>-->
+
   <image-slot>
-    <img src="../assets/img/harta.jpg" alt="" class="imgBackground">
-    <div class="centered">
-      <h1 class="titlu font-weight-bold">{{ title }}</h1>
-    </div>
+
   </image-slot>
   <div class="container pt-4">
     <div class="listing-detail margin-50px-bottom sm-margin-35px-bottom">
-<!--      <h3 class="font-weight-900 text-center">{{ title }}</h3>-->
+
     </div>
     <div class="col-lg-12 margin-50px-bottom center-col">
       <div class="listing-detail margin-10px-bottom sm-margin-35px-bottom">
         <h6 class="font-weight-400 pl-4"><a href="oficiu-cadastru.html"
-                                            class="margin-10px-right text-theme-color">
-          <i class="fas fa-home  text-theme-color"></i>
-          Oficiul de cadastru si publicitate imobiliara
+                                            class="margin-10px-right font-weight-bold">
+          <i class="fas fa-home  font-weight-bold"></i>
+         Lorem ipsum dolor sit amet.
           ALBA</a></h6>
       </div>
 
@@ -30,23 +27,23 @@
         </tr>
         <tr>
           <td class="pl-3"><a href="#" class="font-weight-bold">Aiud</a></td>
-          <td class="pl-3">Str. Cuza Vodă, nr. 14, cod 515200, Aiud, jud. Alba</td>
+          <td class="pl-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, laudantium?</td>
         </tr>
         <tr>
           <td class="pl-3"><a href="#" class="font-weight-bold">Alba Iulia</a></td>
-          <td class="pl-3">Str. Septimius Severus nr. 59, Alba Iulia, jud. Alba, Cod postal 510129</td>
+          <td class="pl-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
         </tr>
         <tr>
           <td class="pl-3"><a href="#" class="font-weight-bold">Blaj</a></td>
-          <td class="pl-3">Str. Garii, Bl. 4, parter, cod 515400, Blaj, Jud. Alba</td>
+          <td class="pl-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
         </tr>
         <tr>
           <td class="pl-3"><a href="#" class="font-weight-bold">Campeni</a></td>
-          <td class="pl-3">str. Meşteşugarilor, nr. 2, Câmpeni, jud. Alba</td>
+          <td class="pl-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
         </tr>
         <tr>
           <td class="pl-3"><a href="#" class="font-weight-bold">Sebes</a></td>
-          <td class="pl-3">str. Şurianu, nr. 6, Sebeş, jud. Alba</td>
+          <td class="pl-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
         </tr>
         </tbody>
       </table>
@@ -61,14 +58,14 @@
 // import ImagineTop from "@/components/UI/ImagineTop";
 import ImageSlot from "@/components/UI/ImageSlot";
 export default {
-  name: "OficiuBirouriCadastru",
+  name: "OficiuB",
   components: {
     // ImagineTop
     ImageSlot
   },
   data(){
     return {
-      title: 'Oficii si birouri de cadastru din Romania'
+      title: 'some text here'
     }
   }
 }

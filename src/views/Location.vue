@@ -1,11 +1,8 @@
 <template>
   <section>
-<!--    <ImagineTop></ImagineTop>-->
+
     <image-slot>
-      <img src="../assets/img/hands.jpeg" alt="" class="imgBackground">
-      <div class="centered">
-        <h1 class="titlu font-weight-bold">{{ title }}</h1>
-      </div>
+
     </image-slot>
     <localizareHeader/>
     <localizareHarta/>
