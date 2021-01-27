@@ -1,7 +1,8 @@
 <template>
   <!-- start listing list section -->
   <section>
-    <ImagineTop></ImagineTop>
+<!--    <ImagineTop></ImagineTop>-->
+    <image-slot></image-slot>
     <div class="container p-3">
 
       <div class="row">
@@ -37,18 +38,22 @@
           <div class="border-bottom mb-3"></div>
         </div>
       </div>
-
+      <slide-top></slide-top>
     </div>
+
+
   </section>
   <!-- end listing list section -->
 </template>
 
 <script>
-import ImagineTop from "@/components/UI/ImagineTop";
+// import ImagineTop from "@/components/UI/ImagineTop";
+import ImageSlot from "@/components/UI/ImageSlot";
+
 export default {
 name: "CumFunctioneaza",
   components: {
-  ImagineTop
+  ImageSlot
   }
 }
 </script>

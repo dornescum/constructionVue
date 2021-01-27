@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="../assets/img/harta.jpg" alt="">
+    <img src="../assets/img/hands.jpeg" alt="">
   </div>
 </template>
 
@@ -12,7 +12,7 @@ export default {
 
 <style scoped>
 img {
-  height: 20vh;
+  height: 30vh;
   width: 100%;
   object-fit: cover;
 

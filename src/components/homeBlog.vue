@@ -16,12 +16,12 @@
           </a>
           <div class="card-body padding-30px-all">
             <h5 class="card-title font-size22 font-weight-500 magin-20px-bottom">
-              <a href="blog-details.html" class="text-extra-dark-gray">Think about your passions</a>
+              <a href="blog-details.html" class="link-green-color">Think about your passions</a>
             </h5>
             <div class="margin-10px-bottom">
-              <span><a href="#" class="font-size12 margin-15px-right text-extra-dark-gray"><i class="ti-user margin-5px-right"></i>Amdin</a></span>
-              <span><a href="#" class="font-size12 margin-15px-right text-extra-dark-gray"><i class="ti-comment-alt margin-5px-right"></i>27</a></span>
-              <span><a href="#" class="font-size12 text-extra-dark-gray"><i class="ti-heart margin-5px-right"></i>12</a></span>
+              <span><a href="#" class="font-size12 margin-15px-right link-green-color"><i class="ti-user margin-5px-right"></i>Amdin</a></span>
+              <span><a href="#" class="font-size12 margin-15px-right link-green-color"><i class="ti-comment-alt margin-5px-right"></i>27</a></span>
+              <span><a href="#" class="font-size12 link-green-color"><i class="ti-heart margin-5px-right"></i>12</a></span>
             </div>
             <p class="no-margin-bottom">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
           </div>
@@ -37,12 +37,12 @@
           </a>
           <div class="card-body padding-30px-all">
             <h5 class="card-title font-size22 font-weight-500 magin-20px-bottom">
-              <a href="blog-details.html" class="text-extra-dark-gray">Find things you don't know</a>
+              <a href="blog-details.html" class="link-green-color">Find things you don't know</a>
             </h5>
             <div class="margin-10px-bottom">
-              <span><a href="#" class="font-size12 margin-15px-right text-extra-dark-gray"><i class="ti-user margin-5px-right"></i>Amdin</a></span>
-              <span><a href="#" class="font-size12 margin-15px-right text-extra-dark-gray"><i class="ti-comment-alt margin-5px-right"></i>16</a></span>
-              <span><a href="#" class="font-size12 text-extra-dark-gray"><i class="ti-heart margin-5px-right"></i>5</a></span>
+              <span><a href="#" class="font-size12 margin-15px-right link-green-color"><i class="ti-user margin-5px-right"></i>Amdin</a></span>
+              <span><a href="#" class="font-size12 margin-15px-right link-green-color"><i class="ti-comment-alt margin-5px-right"></i>16</a></span>
+              <span><a href="#" class="font-size12 link-green-color"><i class="ti-heart margin-5px-right"></i>5</a></span>
             </div>
             <p class="no-margin-bottom">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece.</p>
           </div>
@@ -58,12 +58,12 @@
           </a>
           <div class="card-body padding-30px-all">
             <h5 class="card-title font-size22 font-weight-500 magin-20px-bottom">
-              <a href="blog-details.html" class="text-extra-dark-gray">Fitness for working people.</a>
+              <a href="blog-details.html" class="link-green-color">Fitness for working people.</a>
             </h5>
             <div class="margin-10px-bottom">
-              <span><a href="#" class="font-size12 margin-15px-right text-extra-dark-gray"><i class="ti-user margin-5px-right"></i>Amdin</a></span>
-              <span><a href="#" class="font-size12 margin-15px-right text-extra-dark-gray"><i class="ti-comment-alt margin-5px-right"></i>32</a></span>
-              <span><a href="#" class="font-size12 text-extra-dark-gray"><i class="ti-heart margin-5px-right"></i>46</a></span>
+              <span><a href="#" class="font-size12 margin-15px-right link-green-color"><i class="ti-user margin-5px-right"></i>Amdin</a></span>
+              <span><a href="#" class="font-size12 margin-15px-right link-green-color"><i class="ti-comment-alt margin-5px-right"></i>32</a></span>
+              <span><a href="#" class="font-size12 link-green-color"><i class="ti-heart margin-5px-right"></i>46</a></span>
             </div>
             <p class="no-margin-bottom">It is a long established fact that a reader will be distracted by the readable content.</p>
           </div>

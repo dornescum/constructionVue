@@ -1,6 +1,12 @@
 <template>
   <div>
-    <imagine-top></imagine-top>
+<!--    <imagine-top></imagine-top>-->
+    <image-slot>
+      <img src="../assets/img/harta.jpg" alt="" class="imgBackground">
+      <div class="centered">
+        <h1 class="titlu font-weight-bold">{{ title }}</h1>
+      </div>
+    </image-slot>
     <!-- start listing list section -->
     <section>
       <div class="container">
@@ -53,24 +59,30 @@
       </div>
     </section>
     <!-- end listing list section -->
+
+    <slide-top></slide-top>
+
   </div>
 </template>
 
 <script>
 // import testimonialsClienti from "@/components/testimonialsClienti";
 import TestimonialsClasic from "@/components/TestimonialsClasic";
-import ImagineTop from "@/components/UI/ImagineTop";
+import ImageSlot from "@/components/UI/ImageSlot";
+// import ImagineTop from "@/components/UI/ImagineTop";
 export default {
   name: "ParerileClientilor",
   components: {
     // testimonialsClienti,
     TestimonialsClasic,
-    ImagineTop
+    ImageSlot
+    // ImagineTop
   },
   // props: ['name'],
   data() {
     return {
       reviews: [],
+      title: 'parerile clientilor',
     }
   },
   mounted() {

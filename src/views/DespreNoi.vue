@@ -1,7 +1,13 @@
 <template>
   <!-- start listing list section -->
   <section>
-    <ImagineTop></ImagineTop>
+<!--    <ImagineTop></ImagineTop>-->
+    <image-slot>
+      <img src="../assets/img/harta.jpg" alt="" class="imgBackground">
+      <div class="centered">
+        <h1 class="titlu font-weight-bold">{{ title }}</h1>
+      </div>
+    </image-slot>
     <div class="container pt-3">
 
       <div class="row margin-50px-bottom">
@@ -63,16 +69,25 @@
         </div>
       </div>
     </div>
+    <slide-top></slide-top>
+
   </section>
   <!-- end listing list section -->
 </template>
 
 <script>
-import ImagineTop from "@/components/UI/ImagineTop";
+// import ImagineTop from "@/components/UI/ImagineTop";
+import ImageSlot from "@/components/UI/ImageSlot";
 export default {
 name: "DespreNoi",
   components: {
-  ImagineTop
+  // ImagineTop
+    ImageSlot
+  },
+  data(){
+    return {
+      title: 'despre noi'
+    }
   }
 }
 </script>

@@ -1,26 +1,34 @@
 <template>
   <section>
-    <b-row>
-
-      <div class="pt-3">
-        <img src="../assets/img/harta.jpg" alt="" class="imgBackground">
-        <div class="centered titluBackground">
-          <h1>test</h1>
-        </div>
+    <image-slot>
+<!--      <h1>{{ title}}</h1>-->
+      <img src="../assets/img/hands.jpeg" alt="" class="imgBackground">
+      <div class="centered">
+        <h1 class="titlu font-weight-bold">{{ title }}</h1>
       </div>
+    </image-slot>
+    <b-row>
+<!--         imagine temporara!!!-->
+<!--  ==============================================================    -->
+<!--      <div class="pt-3">-->
+<!--        <img src="../assets/img/harta.jpg" alt="" class="imgBackground">-->
+<!--        <div class="centered titluBackground">-->
+<!--          <h1>test</h1>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--=================================================================-->
 
 
 
       <b-col class="form-list center-col mt-5">
         <div class="container margin-10px-top">
 
-          <p class="grey-color">Daca esti firma sau PFA si iti desfasori activitatea in domeniul cadastrului,
-            iti poti crea cont gratuit chiar acum.
+          <p class="grey-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cum illo ipsa neque nisi nostrum, nulla odio quis ullam veritatis?
           </p>
 
 
           <fieldset class="border p-2 mb-2">
-            <legend  class="w-auto">Date firma/PFA
+            <legend  class="w-auto">Some data
             </legend>
 <!--            <div class="row justify-content-start">-->
 <!--              <p class="pl-2">Tipul entitati</p>-->
@@ -131,7 +139,7 @@
           <!--==============================================-->
 
           <fieldset class="border p-2 mb-2">
-            <legend  class="w-auto">Date ANCPI
+            <legend  class="w-auto">Date HJHK
             </legend>
             <!--                    <h6>Date ANCPI</h6>-->
             <div class="row">
@@ -147,7 +155,7 @@
           </fieldset>
           <!--==============================================-->
           <fieldset class="border p-2 mb-2">
-            <legend  class="w-auto">Date de conectare
+            <legend  class="w-auto">Some data
             </legend>
             <!--                    <h6>Date de conectare</h6>-->
             <div class="row">
@@ -170,10 +178,9 @@
             <!--                        <label class="font-weight-bold text-dark">Termeni si conditii *</label>-->
             <input class="margin-50px-left" id="terms" name="terms" type="checkbox" value="terms"/>
             <label for="terms">
-              {{space }} Am citit si sunt de acord cu <a id="terms-and-conditions" href="#" class="text-theme-color"
+              {{space }} Lorem ipsum dolor sit amet.<a id="terms-and-conditions" href="#" class="link-green-color"
                                               data-toggle="modal" data-target="#exampleModal"
-            >conditiile
-              de utilizare ale site-ului</a>
+            >Lorem ipsum dolor sit amet.</a>
             </label>
           </p>
 
@@ -181,27 +188,31 @@
           <div class="col-md-12 mb-2">
             <div class="row justify-content-between">
 
-              <p class="margin-20px-left sm-font-size12">* campuri obligatorii</p>
-              <button type="submit" class="btnM margin-20px-right hover sm-font-size14"><span><i
-                  class="fa fa-save"></i> Inregistrare</span></button>
+              <p class="margin-20px-left sm-font-size12">* mandatory</p>
+              <button type="submit" class="btnM margin-20px-right hover sm-font-size14" style="background-color: #42b983"><span><i
+                  class="fa fa-save"></i> Register</span></button>
             </div>
 
           </div>
         </div>
       </b-col>
     </b-row>
+
+    <slide-top></slide-top>
   </section>
+
 </template>
 
 <script>
-// import ImageSlot from "@/components/UI/ImageSlot";
+import ImageSlot from "@/components/UI/ImageSlot";
 // import ImagineTop from "@/components/UI/ImagineTop";
 export default {
     components: {
-      // ImagineTop,
+      ImageSlot
     },
   data() {
     return {
+      title: 'Some generated text ',
       space: '  ',
       selected: 'first',
       options: [

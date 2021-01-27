@@ -120,6 +120,8 @@ Variables
   --clr-red-light: hsl(360, 71%, 66%);
   --clr-green-dark: hsl(125, 67%, 44%);
   --clr-green-light: hsl(125, 71%, 66%);
+  --green-1:#008500;
+  --green-2: #004d00;
   --clr-grey-fieldset: #6f6f6f;
   /*--clr-secondary: hsla(182, 63%, 54%);*/
   --clr-black: #222;
@@ -2537,6 +2539,10 @@ html {
 }
 .font-size18{
   font-size: 18px;
+}
+
+.link-green-color{
+  color: var(--green-1);
 }
 
 </style>

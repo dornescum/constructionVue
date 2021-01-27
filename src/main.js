@@ -15,6 +15,9 @@ import router from './router'
 // import '@fortawesome/fontawesome-free/css/all.css'
 // import '@fortawesome/fontawesome-free/js/all.js'
 
+import slideTop from "@/components/UI/slideTop";
+
+Vue.component('slide-top', slideTop)
 Vue.config.productionTip = false
 
 new Vue({

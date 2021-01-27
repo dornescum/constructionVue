@@ -1,7 +1,7 @@
 <template>
  <section>
    <homeSearch />
-   <homeJudete />
+   <homeShop />
    <homeTrei />
    <homeTestimonials/>
    <homeBlog />
@@ -11,7 +11,7 @@
 
 <script>
 import homeSearch from "@/components/homeSearch";
-import homeJudete from "@/components/homeJudete";
+import homeShop from "@/components/homeShop";
 import homeTrei from "@/components/homeTrei";
 import homeTestimonials from "@/components/homeTestimonials";
 import homeBlog from "@/components/homeBlog";
@@ -21,7 +21,7 @@ export default {
   name: 'Home',
   components: {
  homeSearch,
-    homeJudete,
+    homeShop,
     homeTrei,
     homeTestimonials,
     homeBlog,

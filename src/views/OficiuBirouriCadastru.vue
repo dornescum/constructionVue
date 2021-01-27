@@ -1,9 +1,15 @@
 <template>
 <section>
-  <imagine-top></imagine-top>
+<!--  <imagine-top></imagine-top>-->
+  <image-slot>
+    <img src="../assets/img/harta.jpg" alt="" class="imgBackground">
+    <div class="centered">
+      <h1 class="titlu font-weight-bold">{{ title }}</h1>
+    </div>
+  </image-slot>
   <div class="container pt-4">
     <div class="listing-detail margin-50px-bottom sm-margin-35px-bottom">
-      <h3 class="font-weight-900 text-center">{{ title }}</h3>
+<!--      <h3 class="font-weight-900 text-center">{{ title }}</h3>-->
     </div>
     <div class="col-lg-12 margin-50px-bottom center-col">
       <div class="listing-detail margin-10px-bottom sm-margin-35px-bottom">
@@ -44,21 +50,21 @@
         </tr>
         </tbody>
       </table>
-
     </div>
-
-
-
   </div>
+  <slide-top></slide-top>
+
 </section>
 </template>
 
 <script>
-import ImagineTop from "@/components/UI/ImagineTop";
+// import ImagineTop from "@/components/UI/ImagineTop";
+import ImageSlot from "@/components/UI/ImageSlot";
 export default {
   name: "OficiuBirouriCadastru",
   components: {
-    ImagineTop
+    // ImagineTop
+    ImageSlot
   },
   data(){
     return {

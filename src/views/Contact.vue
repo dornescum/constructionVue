@@ -1,8 +1,16 @@
 <template>
   <div>
-    <imagine-top></imagine-top>
+<!--    <imagine-top></imagine-top>-->
+    <image-slot>
+      <img src="../assets/img/harta.jpg" alt="" class="imgBackground">
+      <div class="centered">
+        <h1 class="titlu font-weight-bold">{{title}}</h1>
+      </div>
+    </image-slot>
     <idContact></idContact>
     <FormContact/>
+    <slide-top></slide-top>
+
   </div>
 </template>
 
@@ -10,7 +18,8 @@
 import idContact from "@/components/idContact";
 // import formContact from "@/components/formContact"
 import FormContact from "@/components/formContact";
-import ImagineTop from "@/components/UI/ImagineTop";
+import ImageSlot from "@/components/UI/ImageSlot";
+// import ImagineTop from "@/components/UI/ImagineTop";
 
 
 export default {
@@ -18,8 +27,15 @@ export default {
   components: {
     FormContact,
     idContact,
-    ImagineTop
+    ImageSlot
+    // ImagineTop
   },
+  data(){
+    return {
+      title: 'Contact'
+
+    }
+  }
 }
 
 </script>

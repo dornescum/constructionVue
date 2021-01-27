@@ -1,7 +1,12 @@
 <template>
   <section>
-    <imagine-top></imagine-top>
-
+<!--    <imagine-top></imagine-top>-->
+<image-slot>
+  <img src="../assets/img/harta.jpg" alt="" class="imgBackground">
+  <div class="centered">
+    <h1 class="titlu font-weight-bold">{{ title }}</h1>
+  </div>
+</image-slot>
     <div class="container pt-2">
       <div class="listing-detail margin-50px-bottom sm-margin-35px-bottom">
         <h3 class="font-weight-900 border-bottom text-center">Oficii si birouri de cadastru din judetul
@@ -106,38 +111,43 @@
 
 
       </div>
- <oficiu-cadastru-component
-    v-for="inf in information" :key="inf.id"
-    :adresa="inf.adresa"
+      <oficiu-cadastru-component
+          v-for="inf in information" :key="inf.id"
+          :adresa="inf.adresa"
 
- ></oficiu-cadastru-component>
+      ></oficiu-cadastru-component>
     </div>
+
+    <slide-top></slide-top>
+
   </section>
 </template>
 
 <script>
-import ImagineTop from "@/components/UI/ImagineTop";
+// import ImagineTop from "@/components/UI/ImagineTop";
 import oficiuCadastruComponent from "@/components/oficiuCadastruComponent";
+import ImageSlot from "@/components/UI/ImageSlot";
 
 
 export default {
   name: "OficiuCadastru",
   components: {
-    ImagineTop,
-    oficiuCadastruComponent
-
+    // ImagineTop,
+    oficiuCadastruComponent,
+    ImageSlot
   },
-  data(){
-    return{
+  data() {
+    return {
       info: [],
-      information: ''
+      information: '',
+      title: 'Oficii cadastru'
     }
   },
   mounted() {
     this.fetchInfo()
   },
-  methods:{
-    async fetchInfo(){
+  methods: {
+    async fetchInfo() {
       const response = await fetch('cadastre.json');
       console.log(response)
       const value = await response.json();

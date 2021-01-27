@@ -1,7 +1,7 @@
 <template>
   <div class="container mb-2">
     <div class="text-center margin-40px-bottom">
-      <h3 class="margin-10px-bottom m-2">Judete</h3>
+      <h3 class="margin-10px-bottom m-2">Buy somenthing</h3>
       <p class="no-margin-bottom">Lorem Ipsum is simply dummy printing</p>
     </div>
 
@@ -14,8 +14,8 @@
                 <i class="ti-layers"></i>
               </div>
               <div>
-                <h5 class="font-size20">Shop</h5>
-                <i class="fa fa-map-marked-alt font-size32 text-theme-color"></i>
+                <h5 class="font-size16">Phones</h5>
+                <i class="fas fa-mobile-alt font-size32 color-card"></i>
               </div>
             </div>
           </div>
@@ -29,8 +29,8 @@
                 <i class="ti-layers"></i>
               </div>
               <div>
-                <h5 class="font-size20">Shop</h5>
-                <i class="fa fa-map-marked-alt font-size32 text-theme-color"></i>
+                <h5 class="font-size16">Tablets</h5>
+                <i class="fas fa-tablet-alt font-size32 color-card"></i>
               </div>
             </div>
           </div>
@@ -44,8 +44,8 @@
                 <i class="ti-layers"></i>
               </div>
               <div>
-                <h5 class="font-size20">Shop</h5>
-                <i class="fa fa-map-marked-alt font-size32 text-theme-color"></i>
+                <h5 class="font-size16">Laptops</h5>
+                <i class="fas fa-laptop font-size32 color-card"></i>
               </div>
             </div>
           </div>
@@ -59,8 +59,8 @@
                 <i class="ti-layers"></i>
               </div>
               <div>
-                <h5 class="font-size20">Shop</h5>
-                <i class="fa fa-map-marked-alt font-size32 text-theme-color"></i>
+                <h5 class="font-size16">Pc</h5>
+                <i class="fas fa-desktop font-size32 color-card"></i>
               </div>
             </div>
           </div>
@@ -74,8 +74,8 @@
                 <i class="ti-layers"></i>
               </div>
               <div>
-                <h5 class="font-size20">Shop</h5>
-                <i class="fa fa-map-marked-alt font-size32 text-theme-color"></i>
+                <h5 class="font-size16">Mini Pc</h5>
+                <i class="fas fa-tv font-size32 color-card"></i>
               </div>
             </div>
           </div>
@@ -89,8 +89,8 @@
                 <i class="ti-layers"></i>
               </div>
               <div>
-                <h5 class="font-size20">Shop</h5>
-                <i class="fa fa-map-marked-alt font-size32 text-theme-color"></i>
+                <h5 class="font-size16">Camera</h5>
+                <i class="fas fa-camera font-size32 color-card"></i>
               </div>
             </div>
           </div>
@@ -104,8 +104,8 @@
                 <i class="ti-layers"></i>
               </div>
               <div>
-                <h5 class="font-size20">Shop</h5>
-                <i class="fa fa-map-marked-alt font-size32 text-theme-color"></i>
+                <h5 class="font-size16">Cables</h5>
+                <i class="fas fa-camera font-size32 color-card"></i>
               </div>
             </div>
           </div>
@@ -119,8 +119,8 @@
                 <i class="ti-layers"></i>
               </div>
               <div>
-                <h5 class="font-size20">Shop</h5>
-                <i class="fa fa-map-marked-alt font-size32 text-theme-color"></i>
+                <h5 class="font-size16">Servers</h5>
+                <i class="fas fa-desktop font-size32 color-card"></i>
               </div>
             </div>
           </div>
@@ -134,8 +134,8 @@
                 <i class="ti-layers"></i>
               </div>
               <div>
-                <h5 class="font-size20">Shop</h5>
-                <i class="fa fa-map-marked-alt font-size32 text-theme-color"></i>
+                <h5 class="font-size16">Gaming</h5>
+                <i class="fas fa-laptop font-size32 color-card"></i>
               </div>
             </div>
           </div>
@@ -149,8 +149,8 @@
                 <i class="ti-layers"></i>
               </div>
               <div>
-                <h5 class="font-size20">Shop</h5>
-                <i class="fa fa-map-marked-alt font-size32 text-theme-color"></i>
+                <h5 class="font-size14">Smart watches</h5>
+                <i class="far fa-clock font-size32 color-card"></i>
               </div>
             </div>
           </div>
@@ -164,8 +164,8 @@
                 <i class="ti-layers"></i>
               </div>
               <div>
-                <h5 class="font-size20">Shop</h5>
-                <i class="fa fa-map-marked-alt font-size32 text-theme-color"></i>
+                <h5 class="font-size16">Tv</h5>
+                <i class="fas fa-tv font-size32 color-card"></i>
               </div>
             </div>
           </div>
@@ -179,8 +179,8 @@
                 <i class="ti-layers"></i>
               </div>
               <div>
-                <h5 class="font-size20">Shop</h5>
-                <i class="fa fa-map-marked-alt font-size32 text-theme-color"></i>
+                <h5 class="font-size16">Sound</h5>
+                <i class="fas fa-headphones font-size32 color-card"></i>
               </div>
             </div>
           </div>
@@ -211,11 +211,15 @@ export default {
   align-content: center;
   justify-content: center;
   margin: 15px 0;
+  color: var(--green-1);
 }
 
 .card-3:hover {
   transform: scale(1.01);
-  /*box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);*/
   box-shadow: var(--dark-shadow);
+  color: var(--green-2);
+}
+.color-card{
+  color:var(--green-2);
 }
 </style>

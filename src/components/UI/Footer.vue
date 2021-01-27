@@ -6,29 +6,29 @@
         <b-row>
           <b-col lg="4" sm="12" align="start">
             <ul class="p-2">
-              <li><router-link to="/"><i class="fa fa-book text-theme-color"></i> Harta Judate</router-link></li>
-              <li><router-link to="/Localizare"><i class="fa fa-book text-theme-color"></i> Ce este cadastrul</router-link></li>
-              <li><router-link to="/OficiuBirouriCadastru"><i class="fa fa-book text-theme-color"></i> Oficiou birouri cadastru</router-link></li>
-              <li><router-link to="/Localizare"><i class="fa fa-book text-theme-color"></i> Localizare</router-link></li>
-              <li><router-link to="/ParerileClientilor"><i class="fa fa-book text-theme-color"></i> Parerile Clientilor</router-link></li>
+              <li><router-link to="/"><i class="fa fa-book link-green-color"></i> Harta Judate</router-link></li>
+              <li><router-link to="/Localizare"><i class="fa fa-book link-green-color"></i> Ce este cadastrul</router-link></li>
+              <li><router-link to="/OficiuBirouriCadastru"><i class="fa fa-book link-green-color"></i> Oficiou birouri cadastru</router-link></li>
+              <li><router-link to="/Localizare"><i class="fa fa-book link-green-color"></i> Localizare</router-link></li>
+              <li><router-link to="/ParerileClientilor"><i class="fa fa-book link-green-color"></i> Parerile Clientilor</router-link></li>
             </ul>
           </b-col>
           <b-col lg="4" sm="12" align="start">
             <ul class="p-2">
-              <li><router-link to="/InscriereFirme"><i class="fa fa-book text-theme-color"></i> Inscriere Firma</router-link></li>
-              <li><router-link to="/CautaFirma"><i class="fa fa-book text-theme-color"></i> Cauta firma</router-link></li>
-              <li><router-link to="/ParerileClientilor"><i class="fa fa-book text-theme-color"></i> Termeni si conditii </router-link></li>
-              <li><router-link to="/ParerileClientilor"><i class="fa fa-book text-theme-color"></i> Politica de confidentialitate</router-link></li>
-              <li><router-link to="/ParerileClientilor"><i class="fa fa-book text-theme-color"></i> Politica de cookies</router-link></li>
+              <li><router-link to="/InscriereFirme"><i class="fa fa-book link-green-color"></i> Inscriere Firma</router-link></li>
+              <li><router-link to="/CautaFirma"><i class="fa fa-book link-green-color"></i> Cauta firma</router-link></li>
+              <li><router-link to="/ParerileClientilor"><i class="fa fa-book link-green-color"></i> Termeni si conditii </router-link></li>
+              <li><router-link to="/ParerileClientilor"><i class="fa fa-book link-green-color"></i> Politica de confidentialitate</router-link></li>
+              <li><router-link to="/ParerileClientilor"><i class="fa fa-book link-green-color"></i> Politica de cookies</router-link></li>
             </ul>
           </b-col>
           <b-col lg="4" sm="12" align="start">
             <ul class="p-2">
-              <li><router-link to="/Localizare"><i class="fa fa-book text-theme-color"></i> ANCPI</router-link></li>
-              <li><router-link to="/Localizare"><i class="fa fa-book text-theme-color"></i> Geoportal ANCPI (Harta)</router-link></li>
-              <li><router-link to="/Localizare"><i class="fa fa-book text-theme-color"></i> Extras carte funciara online</router-link></li>
-              <li><router-link to="/Localizare"><i class="fa fa-book text-theme-color"></i> Topo-Online</router-link></li>
-              <li><router-link to="/Localizare"><i class="fa fa-book text-theme-color"></i>  Statii Permanente GPS</router-link></li>
+              <li><router-link to="/Localizare"><i class="fa fa-book link-green-color"></i> ANCPI</router-link></li>
+              <li><router-link to="/Localizare"><i class="fa fa-book link-green-color"></i> Geoportal ANCPI (Harta)</router-link></li>
+              <li><router-link to="/Localizare"><i class="fa fa-book link-green-color"></i> Extras carte funciara online</router-link></li>
+              <li><router-link to="/Localizare"><i class="fa fa-book link-green-color"></i> Topo-Online</router-link></li>
+              <li><router-link to="/Localizare"><i class="fa fa-book link-green-color"></i>  Statii Permanente GPS</router-link></li>
             </ul>
           </b-col>
         </b-row>
@@ -41,8 +41,7 @@
       <div class="container">
 
         <div class="float-left xs-width-100 text-center">
-          <p class="text-medium-gray font-weight-600 margin-5px-top xs-no-margin-top">&copy; 2020 Finder
-            is Powered by Chitrakoot Web</p>
+          <p class="text-medium-gray font-weight-600 margin-5px-top xs-no-margin-top">&copy; 2020 Nothing important</p>
         </div>
       </div>
     </div>

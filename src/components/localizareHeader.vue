@@ -1,25 +1,17 @@
 <template>
   <div class="container pt-5">
     <div class="row margin-50px-bottom">
-      <div class="col-lg-7 col-md-6">
+      <div class="col-lg-7 col-md-6 gri-font">
         <p>
-          Aceasta este o mica aplicatie cu ajutorul careia se poate determina pozitia unui punct de
-          coordonate
-          cu precizie metrica. Tot ce trebuie sa faceti este sa introduceti in campurile de mai jos
-          valorile
-          pentru coordonatele <i>X(Nord)</i> si <i>Y(Est)</i>, iar dupa ce ati verificat datele apasati
-          butonul <i class="text-theme-color font-size14 text-uppercase">Localizare</i>
-          .
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor dolorem et eum harum nesciunt non nostrum possimus rem unde voluptatibus. A, aliquid enim facilis fugiat modi possimus repudiandae saepe velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, quaerat.
         </p>
 
 
         <p>
-          Trebuie mentionat ca aceste coordonate sunt exprimate in metri si au ca sistem de referinta
-          <a :href="linkTopo" class="text-theme-color" target="_blank">Sistemul
-            de Proiectie Stereografic 1970</a>.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aspernatur at deserunt dolor eaque eligendi expedita facere id nisi obcaecati optio quaerat quos, ratione repellat tempora tenetur ullam veniam, veritatis?
         </p>
         <p>
-          Exemplu de coordonate: X(Nord) = <i>329976.803</i> ; Y(Est) = <i>589696.632</i>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, iure?
         </p>
 
 
@@ -27,7 +19,7 @@
 
       <!--                dreapta carousel-->
       <div class="col-lg-5 col-md-6">
-        <img src="../assets/img/1_Dan_santier.png" alt="">
+        <img src="../assets/img/thinkpad.jpeg" alt="">
         <!--                inchide carousel-->
       </div>
       <!--                inchide dreapta-->

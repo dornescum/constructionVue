@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h2>Testimonials</h2>
+    <h2>Customers Testimonials</h2>
     <div class="container testimonials">
       <div class="row border-top-2">
         <div class="col-md-4 testimonial">
@@ -12,7 +12,7 @@
             </div>
 
             <div class="testimonial-main col-md-7">
-              <h4 class="media-heading"><a href="#m">Owenl Ollyt</a></h4>
+              <h4 class="media-heading"><a href="#" class="link-green-color">Owenl Ollyt</a></h4>
               <p class="testimony-body">bootstrap rules!</p>
             </div>
           </div>
@@ -26,7 +26,7 @@
             </div>
 
             <div class="testimonial-main col-md-7">
-              <h4 class="media-heading"><a href="#">Darla Marty</a></h4>
+              <h4 class="media-heading"><a href="#" class="link-green-color">Darla Marty</a></h4>
               <p class="testimony-body">Bootdey rules!</p>
             </div>
           </div>
@@ -40,7 +40,7 @@
             </div>
 
             <div class="testimonial-main col-md-7">
-              <h4 class="media-heading"><a href="#">Maryou Mcjouin</a></h4>
+              <h4 class="media-heading"><a href="#" class="link-green-color">Maryou Mcjouin</a></h4>
               <p class="testimony-body">Ok man!</p>
             </div>
           </div>
